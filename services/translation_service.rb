@@ -33,7 +33,7 @@ class TranslationService
   end
 
   def cache_key
-    "translation:#{decoded(text)}:#{decoded(to)}"
+    "translation:#{decoded(text)}:#{to}"
   end
 
   def decoded(string)
